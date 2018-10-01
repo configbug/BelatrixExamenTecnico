@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Adam';
+  src: url('assets/webfonts/adam_cgpro.woff2') format('woff2'),
+       url('assets/webfonts/adam_cgpro.woff') format('woff'),
+       url('assets/webfonts/adam_cgpro.ttf') format('truetype'),
+       url('assets/webfonts/adam_cgpro.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/webfonts/GothamMedium.eot');
+  src: url('assets/webfonts/GothamMedium.woff2') format('woff2'),
+       url('assets/webfonts/GothamMedium.woff') format('woff'),
+       url('assets/webfonts/GothamMedium.ttf') format('truetype'),
+       url('assets/webfonts/GothamMedium.svg#GothamMedium') format('svg'),
+       url('assets/webfonts/GothamMedium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/webfonts/GothamExLight.eot');
+  src: url('assets/webfonts/GothamExLight.woff2') format('woff2'),
+       url('assets/webfonts/GothamExLight.woff') format('woff'),
+       url('assets/webfonts/GothamExLight.ttf') format('truetype'),
+       url('assets/webfonts/GothamExLight.svg#GothamExLight') format('svg'),
+       url('assets/webfonts/GothamExLight.eot?#iefix') format('embedded-opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/webfonts/GothamBook.eot');
+  src: url('assets/webfonts/GothamBook.woff2') format('woff2'),
+       url('assets/webfonts/GothamBook.woff') format('woff'),
+       url('assets/webfonts/GothamBook.ttf') format('truetype'),
+       url('assets/webfonts/GothamBook.svg#GothamBook') format('svg'),
+       url('assets/webfonts/GothamBook.eot?#iefix') format('embedded-opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arial Rounded';
+  src: url('assets/webfonts/arial_rounded.eot');
+  src: url('assets/webfonts/arial_rounded.woff2') format('woff2'),
+       url('assets/webfonts/arial_rounded.eot?#iefix') format('embedded-opentype'),
+       url('assets/webfonts/ArialRoundedMTBold.woff') format('woff'),
+       url('assets/webfonts/ArialRoundedMTBold.ttf') format('truetype'),
+       url('assets/webfonts/ArialRoundedMTBold.svg#ArialRoundedMTBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

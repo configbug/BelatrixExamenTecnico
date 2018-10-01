@@ -1,0 +1,48 @@
+<app-header></app-header>
+<div class="content-cambiomoneda">
+  <div class="titlePage text-center">
+    <h1>
+      Tipo de Cambio : Dolar a Euro
+    </h1>
+  </div>
+  <div class="container-fluid">
+    <form [formGroup]="formGroupCambioMoneda">
+      <div class="row">
+        <div class="col-md-3 offset-md-3">
+          <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">$</span>
+            </div>
+            <input (keyup.enter)="obtainCurrency()" formControlName="valueDolar" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">€</span>
+            </div>
+            <input formControlName="valueEuro" type="text" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="row" *ngIf="formGroupCambioMoneda.get('valueDolar').hasError('pattern')">
+        <div class="col-md-6 offset-md-3 msgError text-center">
+          <strong>Formato Incorrecto</strong> <br>
+          Sólo se permite valores numéricos con un máximo de 4 decimales. <br>
+          Ejm: 466, 345.567, 3444.53, 56.7899
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          &nbsp;
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <button (click)="obtainCurrency()" [disabled]="!this.formGroupCambioMoneda.valid" type="button" class="btn btn-primary">CALCULAR</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<app-footer></app-footer>

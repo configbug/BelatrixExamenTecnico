@@ -1,0 +1,11 @@
+@import '../../../sass/color';
+@import '../../../sass/variables';
+
+footer{
+    padding: 30px 50px;
+    background: linear-gradient($color-gray-two, $color-background-one);
+}
+footer .content-icons img{
+    width: 80px;
+    text-align: center
+}

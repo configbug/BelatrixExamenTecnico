@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  serviceUrl : 'http://data.fixer.io',
+  serviceUrl2 : 'https://api.exchangeratesapi.io',
 };
 
 /*

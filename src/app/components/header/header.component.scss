@@ -1,0 +1,11 @@
+@import '../../../sass/color';
+@import '../../../sass/variables';
+
+header{
+    background-color: $color-background-one;
+    height: 180px;
+    background-image: url('../../../' + $path-image + 'logo.png'); 
+    background-size: 140px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
